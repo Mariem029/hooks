@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.movie-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+}
+
+.filter input {
+  margin: 10px;
+  padding: 5px;
+}
+
+.add-movie form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add-movie input {
+  margin: 5px;
+  padding: 5px;
+  width: 200px;
+}
+
+.add-movie button {
+  padding: 5px 10px;
+  margin-top: 10px;
+}
